@@ -13,7 +13,6 @@ const Item = ({ item }) => {
           <Card.Header>
             <div className="titulo">{item.title}</div>
           </Card.Header>
-          <Card.Meta>$ {item.price}</Card.Meta>
           <Card.Description>{item.category}</Card.Description>
         </Card.Content>
         <button>Ver detalles</button>

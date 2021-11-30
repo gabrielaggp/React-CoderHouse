@@ -1,10 +1,9 @@
 import { Component } from 'react';
 import './App.css';
-
 //Components
 import NavBar from './Components/Header/NavBar';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
-
+import ItemDetailContainer from './Components/ItemListContainer/ItemDetailContainer';
 class App extends Component {
   render(){
   return (
@@ -13,6 +12,8 @@ class App extends Component {
       <main>
       <ItemListContainer/> 
       </main>  
+      <ItemDetailContainer />
+
    </div>
     
   );}
